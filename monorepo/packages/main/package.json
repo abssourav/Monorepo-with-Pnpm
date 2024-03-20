@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@projectname/second": "1.0.0"
+    "@projectname/second": "workspace:*"
+    // normally package monorepo er modde khuje then npm package a giye khuje
+    //tai workspace: dile sudumatro monorepotei package khujbe ,tahole project fast kaj korbe
+    //workspace:* dile jekono version khuje nibe auto
   },
   "scripts": {
     "start": "node index.js"

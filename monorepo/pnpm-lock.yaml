@@ -11,7 +11,7 @@ importers:
   packages/main:
     dependencies:
       '@projectname/second':
-        specifier: 1.0.0
+        specifier: workspace:*
         version: link:../second
 
   packages/second: {}
