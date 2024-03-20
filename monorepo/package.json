@@ -1,0 +1,13 @@
+{
+  "name": "@projectname/root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main:start": "pnpm -F @projectname/main run start",
+    "second:start": "pnpm -F @projectname/second run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
