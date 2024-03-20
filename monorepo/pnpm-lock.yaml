@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/main:
+    dependencies:
+      '@projectname/second':
+        specifier: 1.0.0
+        version: link:../second
+
+  packages/second: {}
