@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "main:start": "pnpm -F @projectname/main run start",
-    "second:start": "pnpm -F @projectname/second run start"
+    "second:start": "pnpm -F @projectname/second run start",
+    "start":"pnpm -r run start"
   },
   "keywords": [],
   "author": "",
