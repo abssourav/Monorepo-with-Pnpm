@@ -1,3 +1,4 @@
+import snakeCase from 'just-snake-case'
 export const run = () =>{
-    return "Im from second"
+    return snakeCase("Im from second")
 }

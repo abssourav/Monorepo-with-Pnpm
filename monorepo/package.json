@@ -10,10 +10,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "engines": {
-    "node":">=20.0.0",
-    "pnpm":">=7.00"
-    // version fixed kore debar jonno (in root json)
-  }
+  "license": "ISC"
 }
